@@ -1,75 +1,196 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anderson Vanzo</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
-</head>
-<body>
-<section class="hero">
-    <div class="hero__title">
-        <h4>Anderson</h4>
-        <h1>Vanzo</h1>
-        <h4>Mobile & Web Developer</h4>
-    </div>
-    <div class="hero__links">
-        <a aria-label="Github" href="https://github.com/AndersonVanzo" target="_blank">
-            <img src="assets/github.svg" alt="Github">
-        </a>
-        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/anderson-vanzo/" target="_blank">
-            <img src="assets/linkedin.svg" alt="LinkedIn">
-        </a>
-        <a aria-label="CV" download href="CV.pdf" target="_blank">
-            <img src="assets/cv.svg" alt="CV">
-        </a>
-    </div>
-</section>
-<section class="about">
-    <h2>About me</h2>
-    <div class="about__content">
-        <p>
-            Hi, I’m Anderson Vanzo, a passionate and results-driven Mobile and Web Developer with a knack for creating seamless,
-            user-centric applications. With over 4 of experience in mobile and full-stack development,
-            I specialize in building robust, scalable, and innovative solutions that enhance user experiences and drive business success.
-            <br/>
-            <br/>
-            My journey in tech began with a degree in Internet Computing from the Catarinense Federal Institute,
-            where I developed a strong foundation in programming, algorithms, and web development.
-            Since then, I’ve honed my skills in technologies like <strong>React Native</strong>, <strong>TypeScript</strong>,
-            <strong>Kotlin</strong>, <strong>Java</strong>, <strong>Swift</strong>, and <strong>Node.js</strong>,
-            and have become adept at integrating cutting-edge tools and frameworks to deliver high-quality applications.
-            <br/>
-            <br/>
-            I thrive in collaborative environments and enjoy mentoring new team members, sharing knowledge,
-            and contributing to a culture of continuous improvement. Whether it’s optimizing workflows,
-            solving complex technical challenges, or crafting engaging user interfaces,
-            I’m always driven by a desire to create meaningful and innovative solutions.
-        </p>
-    </div>
-</section>
-<section class="work">
-    <h2>My work</h2>
-    <div class="work__content">
-        <p class="work__warning">
-            Not ready yet...
-        </p>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</section>
-<footer>
-    <p>© 2025 Anderson Vanzo. All rights reserved.</p>
-    <a href="mailto:hello@vanzo.dev">hello@vanzo.dev</a>
-</footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Anderson Vanzo</title>
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <h1>Anderson Vanzo</h1>
+                <div class="links">
+                    <a
+                        class="social-link"
+                        href="https://github.com/AndersonVanzo"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img src="assets/github.svg" />
+                    </a>
+                    <a
+                        class="social-link"
+                        href="https://www.linkedin.com/in/anderson-vanzo/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img src="assets/linkedin.svg" />
+                    </a>
+                </div>
+            </header>
+            <section class="experience">
+                <h2>Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <div class="logo-placeholder">3</div>
+                        </div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Mobile Developer</h3>
+                            <div class="experience-company">
+                                DOT Digital Group
+                            </div>
+                            <div class="experience-duration">
+                                Apr 2024 - Present
+                            </div>
+                            <div class="experience-location">Remote</div>
+                            <p class="experience-description">
+                                Responsible for the architecture and development
+                                of a text/audio ChatBot application with React
+                                Native. Also responsible for its publication in
+                                both the Android and iOS stores.
+                                <br />
+                                <br />
+                                I also work on front-end projects, such as an AI
+                                Playground and performance evaluation tools,
+                                using Vite + React.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <div class="logo-placeholder">2</div>
+                        </div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Mobile Developer</h3>
+                            <div class="experience-company">Amplimed</div>
+                            <div class="experience-duration">
+                                Apr 2022 - Apr 2024
+                            </div>
+                            <div class="experience-location">
+                                Chapecó, BR - Hybrid
+                            </div>
+                            <p class="experience-description">
+                                I was responsible for gathering requirements,
+                                architecture, and development of an appointment
+                                scheduling application using React Native. I led
+                                the creation of native modules in Kotlin and
+                                Swift to enable teleconsultations using the
+                                Twilio Video SDK. I implemented the automation
+                                of application publication through Bitrise and
+                                Xcode Cloud, resulting in significant
+                                improvements in the efficiency and speed of
+                                deliveries, as well as in white-label updates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-logo">
+                            <div class="logo-placeholder">1</div>
+                        </div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">
+                                Fullstack & Mobile Developer
+                            </h3>
+                            <div class="experience-company">
+                                D3T Inovação Tecnológica
+                            </div>
+                            <div class="experience-duration">
+                                Fev 2021 - Apr 2022
+                            </div>
+                            <div class="experience-location">
+                                Concórdia, BR - On Site
+                            </div>
+                            <p class="experience-description">
+                                Initially, I was responsible for the maintenance
+                                and development of e-commerce platforms with
+                                Laravel and Vue.js. Later, I took over the
+                                development of a React Native application for
+                                the PagSeguro Smart POS machine. I developed a
+                                native module in Java to integrate the PagSeguro
+                                SDK into the application. As a result, the
+                                application is present at high-end parties on
+                                the coast of Santa Catarina and at large events
+                                such as the Planeta Brasil Festival, Coolritiba,
+                                and international concerts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/react.svg" />
+                        </div>
+                        <span>React Native</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/typescript.svg" />
+                        </div>
+                        <span>Typescript</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/kotlin.svg" />
+                        </div>
+                        <span>Kotlin</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/java.svg" />
+                        </div>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/swift.svg" />
+                        </div>
+                        <span>Swift</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/node.svg" />
+                        </div>
+                        <span>Nodejs</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/react.svg" />
+                        </div>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/jira.svg" />
+                        </div>
+                        <span>Agile</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <img src="assets/bitrise.svg" />
+                        </div>
+                        <span>CI/CD</span>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <span>© 2025 Anderson Vanzo. All rights reserved. </span>
+                <a href="mailto:hello@vanzo.dev">hello@vanzo.dev</a>
+            </footer>
+        </div>
+    </body>
 </html>
